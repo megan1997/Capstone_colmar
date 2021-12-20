@@ -40,3 +40,44 @@ header {
     padding-right: 16px;
     padding-top: 4px;
 }
+
+/* Intro section */
+.intro {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 124px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    gap: 72px;
+}
+.container {
+    max-width: 750px;
+}
+.container img {
+    width: 105%;
+    height: auto;
+}
+.container #sentence {
+    text-align: left;
+    align-content: space-between;
+}
+#sentence h1 {
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: dimgray;
+}
+#sentence p {
+    font-size: 2rem;
+    color: dimgray;
+}
+#button {
+    color: white !important;
+    font-size: 3.125rem;
+    background-color: dimgray;
+    text-align: center;
+    padding: 8px;
+    
+}
