@@ -79,5 +79,54 @@ header {
     background-color: dimgray;
     text-align: center;
     padding: 8px;
-    
+    transition-property: color;
+}
+#button:hover {
+    color: black;
+}
+
+/* Main section */
+.information {
+    background-color: whitesmoke;
+}
+
+
+/* Courses section */
+.learning {
+    background-color: gainsboro;
+    padding: 16px 72px 64px 72px;
+}
+.learning h1 {
+    text-align: center;
+    font-size: 3.125rem;
+}
+.courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 36px 16px;
+}
+.course {
+    max-width: 350px;
+    background-color: white;
+}
+.course img {
+    width: 100%;
+    height: auto;
+}
+.course #description {
+    padding: 10px 16px 10px 16px;
+    line-height: 1.4;
+}
+
+
+/* Thesis section */
+.thesis {
+    background-color: whitesmoke;
+}
+
+
+/* Footer section */
+.footer {
+    background-color: whitesmoke;
 }
