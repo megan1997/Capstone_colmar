@@ -47,11 +47,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 24px;
-    padding-right: 124px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    gap: 72px;
+    padding: 48px 100px 48px 48px;
+    gap: 88px;
 }
 .container {
     max-width: 750px;
@@ -86,7 +83,7 @@ header {
 }
 
 /* Main section */
-.information {
+.main {
     background-color: whitesmoke;
 }
 
@@ -104,7 +101,7 @@ header {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 36px 16px;
+    gap: 48px 16px;
 }
 .course {
     max-width: 350px;
@@ -115,18 +112,57 @@ header {
     height: auto;
 }
 .course #description {
-    padding: 10px 16px 10px 16px;
-    line-height: 1.4;
+    padding: 2px 16px 2px 16px;
+    line-height: 1.3;
+    font-size: 1.25rem;
 }
 
 
 /* Thesis section */
-.thesis {
+.exhibit {
     background-color: whitesmoke;
+    padding: 24px 0 0 0;
+}
+.exhibit h1 {
+    text-align: center;
+    font-size: 3.125rem;
+}
+.thesis {
+    display: flex;
+    gap: 28px;
+    padding: 18px 0 32px 48px;
+}
+.side {
+    max-width: 700px;
+}
+.side video {
+    width: 100%;
+    height: auto;
+    padding-top: 8px;
+}
+.side h3 {
+    font-size: 1.75rem;
+}
+.side p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+}
+.content {
+    display: inline-flex;
+    gap: 16px;
+    padding: 0 48px 16px 16px;
+    align-items: center;
+}
+.content #left img {
+    width: 240px;
+    height: auto;
+}
+.content #right {
+    flex-wrap: wrap;
 }
 
 
 /* Footer section */
-.footer {
-    background-color: whitesmoke;
+footer {
+    background-color: white;
 }
