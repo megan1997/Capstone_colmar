@@ -165,4 +165,17 @@ header {
 /* Footer section */
 footer {
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 24px;
+    font-size: 1.15rem;
+}
+.bottom {
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom #terms {
+    padding-right: 20px;
 }
