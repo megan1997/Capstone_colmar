@@ -1,4 +1,42 @@
 body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Header section*/
+header {
+    display: flex;
+    justify-content: space-between;
     margin-left: 24px;
     margin-right: 24px;
+}
+
+.top {
+    height: 64px;
+    width: auto;
+    position: relative;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top p {
+    height: 32px;
+    font-size: 1.25rem;
+}
+#name {
+    font-size: 1.625rem;
+}
+#gray {
+    color: gray;
+}
+.top img {
+    height: 100%;
+}
+.top #nav {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 4px;
 }
