@@ -106,6 +106,17 @@ header {
     color: black;
 }
 
+@media only screen and (max-width: 500px) {
+    .intro {
+        display: block;
+        padding: 2px;
+    }
+    #sentence {
+        padding: 32px 16px;
+    }
+    
+}
+
 /* Main section */
 .main {
     background-color: whitesmoke;
