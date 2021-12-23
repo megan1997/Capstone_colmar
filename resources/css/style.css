@@ -40,6 +40,28 @@ header {
     padding-right: 16px;
     padding-top: 4px;
 }
+#mobile {
+    display: none;
+    height: 90%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    #name {
+        display: none;
+    }
+    #nav {
+        display: none;
+    }
+    #mobile {
+        display: inline-flex;
+    }
+    header {
+        justify-content: space-around;
+        padding-left: 48px;
+    }
+}
 
 /* Intro section */
 .intro {
