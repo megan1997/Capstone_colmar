@@ -178,8 +178,8 @@ header {
     }
     .box {
         display: block;
-        width: 280px;
-        padding: 32px 16px 32px 16px;
+        width: 300px;
+        padding: 32px 0;
         height: auto;
     }
     .box h3 {
@@ -195,7 +195,7 @@ header {
         height: auto;
     }
     #text {
-        width: 95%;
+        width: 100%;
         padding-left: 16px;
         padding-right: 16px;
     }
