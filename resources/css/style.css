@@ -59,7 +59,7 @@ header {
     }
     header {
         justify-content: space-around;
-        padding-left: 48px;
+        padding-left: 32px;
     }
 }
 
@@ -112,7 +112,7 @@ header {
         padding: 2px;
     }
     #sentence {
-        padding: 32px 16px;
+        padding: 32px;
     } 
 }
 
@@ -144,7 +144,7 @@ header {
     padding: 8px 48px 16px 16px;
     align-items: center;
 }
-.box #image img {
+.box #picture img {
     width: 200px;
     height: auto;
 }
@@ -167,28 +167,33 @@ header {
 @media only screen and (max-width: 500px) {
     .main {
         display: block;
-        padding: 16px;
+        padding: 32px 16px 16px 16px;
     }
     #part {
         display: none;
     }
     .box {
         display: block;
-        padding-bottom: 16px;
-        width: 100%;
+        padding: 32px 16px 32px 16px;
+        width: 440px;
+        height: auto;
+    }
+    .box h3 {
+        color: dimgray;
+        font-size: 1.6rem;
     }
     #laptop {
         display: none;
     }
     #small {
         display: block;
-        border: 2px solid black; 
-        width: 85%;
+        min-width: 98%;
         height: auto;
     }
-    #small img {
-        width: 400px;
-        height: auto;
+    #text {
+        width: 95%;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
@@ -227,7 +232,11 @@ header {
 @media only screen and (max-width: 500px) {
     .learning {
         background-color: whitesmoke;
-        padding: 16px 16px 32px 16px;
+        padding: 16px 16px 64px 16px;
+        border: 1px solid lightgray;
+    }
+    .learning h1 {
+        color: dimgray;
     }
     .courses {
         display: none;
@@ -241,7 +250,8 @@ header {
         padding: 16px 16px 24px 16px;
         font-size: 1.6rem;
         font-weight: lighter;
-        background-color: gainsboro
+        background-color: gainsboro;
+        color: dimgray;
     }
 }
 
@@ -249,7 +259,7 @@ header {
 /* Thesis section */
 .exhibit {
     background-color: whitesmoke;
-    padding: 16px 0 0 0;
+    padding: 16px 0;
 }
 .exhibit h1 {
     text-align: center;
@@ -295,10 +305,13 @@ header {
     }
     .thesis {
         display: block;
-        padding: 16px 0 0 0;
+        padding: 16px 0;
     }
     .exhibit {
         padding: 16px 2px 32px 2px;
+    }
+    .exhibit h1 {
+        color: dimgray;
     }
     .content {
         display: none;
