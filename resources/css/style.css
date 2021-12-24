@@ -285,6 +285,31 @@ header {
     max-width: 1000px;
     height: auto;
 }
+#s {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    #s {
+        display: inline;
+    }
+    .thesis {
+        display: block;
+        padding: 16px 0 0 0;
+    }
+    .exhibit {
+        padding: 16px 2px 32px 2px;
+    }
+    .content {
+        display: none;
+    }
+    .side h3 {
+        display: none;
+    }
+    .side p {
+        display: none;
+    }
+}
 
 
 /* Footer section */
