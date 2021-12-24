@@ -114,6 +114,9 @@ header {
     #sentence {
         padding: 32px;
     } 
+    #button {
+        max-width: 260px;
+    }
 }
 
 /* Main section */
