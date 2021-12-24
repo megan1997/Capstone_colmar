@@ -178,7 +178,8 @@ header {
     }
     .box {
         display: block;
-        width: 300px;
+        min-width: 280px;
+        max-width: 420px;
         padding: 32px 0;
         height: auto;
     }
