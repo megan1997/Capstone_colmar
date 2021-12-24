@@ -47,7 +47,7 @@ header {
     padding-left: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #name {
         display: none;
     }
@@ -106,7 +106,7 @@ header {
     color: black;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     .intro {
         display: block;
         padding: 2px;
@@ -121,7 +121,7 @@ header {
     background-color: whitesmoke;
     display: flex;
     gap: 28px;
-    padding: 48px 0 48px 58px;
+    padding: 32px 0 48px 58px;
 }
 .info {
     min-width: 700px;
@@ -129,7 +129,7 @@ header {
 .info #banner {
     width: 100%;
     height: auto;
-    padding-top: 8px;
+    padding-top: 32px;
 }
 .info h1 {
     font-size: 3.125rem;
@@ -164,7 +164,7 @@ header {
 #small {
     display: none;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     .main {
         display: block;
         padding: 32px 16px 16px 16px;
@@ -229,7 +229,7 @@ header {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     .learning {
         background-color: whitesmoke;
         padding: 16px 16px 64px 16px;
@@ -299,7 +299,7 @@ header {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     #s {
         display: inline;
     }
@@ -343,7 +343,7 @@ footer {
     padding-right: 20px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     footer {
         padding: 16px;
         margin-top: 24px;
